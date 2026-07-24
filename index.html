@@ -42,25 +42,57 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <span class="hero-badge">Homemade & Premium</span>
-            <h1>Selamat Datang di <span class="highlight">Dapu Mulia</span></h1>
-            <p>Nikmati kelezatan kue dan snack homemade berkualitas tinggi, dibuat dengan cinta dan bahan-bahan terbaik. Setiap gigitan adalah kebahagiaan!</p>
-            <div class="hero-buttons">
-                <a href="#products" class="btn btn-primary">
-                    <i class="fas fa-utensils"></i> Lihat Menu
-                </a>
-                <a href="https://wa.me/6281273127063" target="_blank" class="btn btn-whatsapp">
-                    <i class="fab fa-whatsapp"></i> Pesan Lewat WA
-                </a>
-            </div>
+        <!-- Animated Background Decorations -->
+        <div class="hero-bg-decor">
+            <div class="hero-bubble" style="--x: 10%; --y: 20%; --s: 60px; --d: 0s;"></div>
+            <div class="hero-bubble" style="--x: 85%; --y: 15%; --s: 40px; --d: 2s;"></div>
+            <div class="hero-bubble" style="--x: 20%; --y: 70%; --s: 50px; --d: 4s;"></div>
+            <div class="hero-bubble" style="--x: 75%; --y: 60%; --s: 35px; --d: 1s;"></div>
+            <div class="hero-bubble" style="--x: 50%; --y: 10%; --s: 45px; --d: 3s;"></div>
+            <div class="hero-bubble" style="--x: 90%; --y: 80%; --s: 30px; --d: 5s;"></div>
+            <div class="hero-bubble" style="--x: 5%; --y: 50%; --s: 55px; --d: 2.5s;"></div>
+            <div class="hero-bubble" style="--x: 60%; --y: 85%; --s: 25px; --d: 3.5s;"></div>
         </div>
-        <div class="hero-image">
-            <div class="floating-cakes">
-                <i class="fas fa-birthday-cake"></i>
-                <i class="fas fa-cookie"></i>
-                <i class="fas fa-candy-cane"></i>
-                <i class="fas fa-cupcake"></i>
+
+        <!-- Floating Icons -->
+        <i class="fas fa-birthday-cake hero-float-icon" style="--x: 8%; --y: 25%; --d: 0s;"></i>
+        <i class="fas fa-cookie hero-float-icon" style="--x: 92%; --y: 20%; --d: 1.5s;"></i>
+        <i class="fas fa-candy-cane hero-float-icon" style="--x: 5%; --y: 65%; --d: 3s;"></i>
+        <i class="fas fa-cupcake hero-float-icon" style="--x: 88%; --y: 70%; --d: 4.5s;"></i>
+        <i class="fas fa-star hero-float-icon" style="--x: 50%; --y: 8%; --d: 2s;"></i>
+        <i class="fas fa-heart hero-float-icon" style="--x: 15%; --y: 40%; --d: 5s;"></i>
+        <i class="fas fa-gem hero-float-icon" style="--x: 78%; --y: 45%; --d: 3.5s;"></i>
+
+        <div class="hero-layout">
+            <!-- Left: Text Content -->
+            <div class="hero-content">
+                <span class="hero-badge">Homemade & Premium</span>
+                <h1>Selamat Datang di <span class="highlight">Dapu Mulia</span></h1>
+                <p>Nikmati kelezatan kue dan snack homemade berkualitas tinggi, dibuat dengan cinta dan bahan-bahan terbaik. Setiap gigitan adalah kebahagiaan!</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">
+                        <i class="fas fa-utensils"></i> Lihat Menu
+                    </a>
+                    <a href="https://wa.me/6281273127063" target="_blank" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Pesan Lewat WA
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right: Hero Banner Image -->
+            <div class="hero-banner">
+                <div class="hero-banner-image" id="heroBannerImage">
+                    <img id="heroBannerImg" src="" alt="Banner Dapu Mulia">
+                    <div class="hero-banner-placeholder" id="heroBannerPlaceholder">
+                        <i class="fas fa-image"></i>
+                        <p>Foto Banner</p>
+                    </div>
+                    <!-- Overlay button to change photo -->
+                    <button class="hero-banner-edit" id="changeBannerBtn" title="Ganti Foto Banner">
+                        <i class="fas fa-camera"></i>
+                        <span>Ganti Foto</span>
+                    </button>
+                </div>
             </div>
         </div>
     </section>
@@ -128,19 +160,7 @@
                 <div class="about-text">
                     <span class="section-tag">Tentang Kami</span>
                     <h2>Cerita <span class="highlight">Dapu Mulia</span></h2>
-                    <p><p>
-    <strong>Visi :</strong><br><br>
-    Menjadi usaha rumahan pilihan yang dikenal karena produk yang lezat,
-    berkualitas, dan dibuat dengan penuh ketulusan.
-</p>
-
-<p style="margin-top:25px;">
-    <strong>Misi :</strong><br><br>
-    • Menyajikan aneka kue dan camilan rumahan dengan bahan berkualitas.<br>
-    • Menjaga kebersihan, kualitas, dan konsistensi pada setiap produk.<br>
-    • Terus berinovasi menghadirkan pilihan produk.<br>
-    • Memberikan pelayanan yang ramah, cepat, dan mengutamakan kepuasan pelanggan.
-</p>.</p>
+                    <p>Dapu Mulia adalah toko kue dan snack homemade yang berdiri dengan penuh cinta. Setiap produk dibuat dengan resep turun-temurun dan bahan-bahan premium pilihan.</p>
                     <div class="about-features">
                         <div class="about-feature">
                             <i class="fas fa-leaf"></i>
